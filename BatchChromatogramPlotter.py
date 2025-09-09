@@ -258,11 +258,12 @@ def plot_chromatogram(
     if ylim:
         ax1.set_ylim(ylim)
 
-    fig.tight_layout()
+    
     plt.title(f'Chromatogram for {os.path.splitext(zip_filename)[0]}')
     ax1.legend(all_lines, all_labels, loc='upper left')
     plt.savefig(output_path, dpi=300)
     plt.close(fig)
+    fig.tight_layout()
     print(f"Successfully plotted: {zip_filename} -> {os.path.basename(output_path)}")
 
 
@@ -367,4 +368,3 @@ Available curves can include:
 
 if __name__ == '__main__':
     main()
-
