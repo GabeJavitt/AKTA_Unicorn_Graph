@@ -2,7 +2,7 @@
 
 A standalone Python script to automatically batch process ÄKTA UNICORN result `.zip` files and generate high-quality chromatogram plots. This tool is designed for modern *UNICORN 6+* result files and has no external dependency on the `PyCORN` library.
 
-![Example Chromatogram Plot](sample.jpg)
+![Example Chromatogram Plot](sample.png)
 
 ---
 
