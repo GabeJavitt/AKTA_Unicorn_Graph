@@ -47,4 +47,9 @@ The core parsing logic for the UNICORN 6 format is integrated directly into the 
 
 ## Usage
 
-Run the script from your
+Run the script from your terminal. You must provide an input directory (where your `.zip` files are) and an output directory (where the plots will be saved).
+
+### Basic Syntax
+
+```bash
+python batch_chromatogram_plotter.py <path/to/input_folder> <path/to/output_folder> [options]
